@@ -1,3 +1,7 @@
+## Note: this Repository is deprecated. The model gallery has now moved to https://github.com/mudler/LocalAI/tree/master/gallery and is configured by default in LocalAI.
+
+
+
 <h1 align="center">
   <br>
   <img height="300" src="https://github.com/go-skynet/model-gallery/assets/2420543/7a6a8183-6d0a-4dc4-8e1d-f2672fab354e"> <br>
