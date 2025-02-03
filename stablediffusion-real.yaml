@@ -1,6 +1,6 @@
 name: stablediffusion-real
 parameters:
-  model: SG161222/Realistic_Vision_V5.1_noVAE
+  model: /build/models/Realistic_Vision_V5.1_fp16-no-ema.safetensors
 backend: diffusers
 step: 30
 f16: true
