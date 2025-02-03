@@ -1,4 +1,4 @@
-name: "stablediffusion-real"
+name: "stablediffusion"
 license: "BSD-3"
 urls:
 - https://github.com/EdVince/Stable-Diffusion-NCNN
