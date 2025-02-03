@@ -1,14 +1,24 @@
-name: stablediffusion-real
-parameters:
-  model: /build/models/Realistic_Vision_V5.1_fp16-no-ema.safetensors
-backend: diffusers
-step: 30
-f16: true
-cuda: true
-diffusers:
-  pipeline_type: StableDiffusionPipeline
-  enable_parameters: "negative_prompt,num_inference_steps,clip_skip"
-  scheduler_type: "k_dpmpp_sde"
-  clip_skip: 11
+name: "stablediffusion"
+license: "BSD-3"
+urls:
+- https://github.com/EdVince/Stable-Diffusion-NCNN
+- https://github.com/EdVince/Stable-Diffusion-NCNN/blob/main/LICENSE
 
-cfg_scale: 8
+description: |
+     Stable Diffusion in NCNN with c++, supported txt2img and img2img 
+config_file: |
+    name: stablediffusion-real
+    parameters:
+      model: /build/models/Realistic_Vision_V5.1_fp16-no-ema.safetensors
+    backend: diffusers
+    step: 30
+    f16: true
+    cuda: true
+    diffusers:
+      pipeline_type: StableDiffusionPipeline
+      enable_parameters: "negative_prompt,num_inference_steps,clip_skip"
+      scheduler_type: "k_dpmpp_sde"
+      clip_skip: 11
+
+    cfg_scale: 8
+
