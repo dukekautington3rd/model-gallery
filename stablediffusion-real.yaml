@@ -9,7 +9,7 @@ description: |
 config_file: |
     name: stablediffusion-real
     parameters:
-      model: /build/models/Realistic_Vision_V5.1_fp16-no-ema.safetensors
+      model: Realistic_Vision_V5.1_fp16-no-ema.safetensors
     backend: diffusers
     step: 30
     f16: true
